@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,14 @@
 		0778E2DD238250E400A8E1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0778E2DB238250E400A8E1E0 /* LaunchScreen.storyboard */; };
 		0778E2E8238250E400A8E1E0 /* QuackgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E2E7238250E400A8E1E0 /* QuackgramTests.swift */; };
 		0778E2F3238250E400A8E1E0 /* QuackgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E2F2238250E400A8E1E0 /* QuackgramUITests.swift */; };
+		0778E3012382529D00A8E1E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E3002382529D00A8E1E0 /* LoginViewController.swift */; };
+		0778E303238252A600A8E1E0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E302238252A600A8E1E0 /* FeedViewController.swift */; };
+		0778E3052382530900A8E1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0778E3042382530900A8E1E0 /* Main.storyboard */; };
+		0778E3072382620900A8E1E0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E3062382620900A8E1E0 /* CameraViewController.swift */; };
+		0778E30B2382781200A8E1E0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778E30A2382781200A8E1E0 /* PostCell.swift */; };
+		1ED85ECA72A09A46DF6AEDFB /* Pods_Quackgram_QuackgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16D6B511A5F40E3590986FB /* Pods_Quackgram_QuackgramUITests.framework */; };
+		207DB00D66DD04F3A2B7F2B3 /* Pods_QuackgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0855FF21A6F7E84BDBC7C13A /* Pods_QuackgramTests.framework */; };
+		F058A256C672F4446BF34E0E /* Pods_Quackgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D855055414DA7452295DFB69 /* Pods_Quackgram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,20 @@
 		0778E2EE238250E400A8E1E0 /* QuackgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuackgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0778E2F2238250E400A8E1E0 /* QuackgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackgramUITests.swift; sourceTree = "<group>"; };
 		0778E2F4238250E400A8E1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0778E3002382529D00A8E1E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0778E302238252A600A8E1E0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0778E3042382530900A8E1E0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0778E3062382620900A8E1E0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0778E30A2382781200A8E1E0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0855FF21A6F7E84BDBC7C13A /* Pods_QuackgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuackgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B6C674252C42B9820F86C2 /* Pods-Quackgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quackgram.debug.xcconfig"; path = "Target Support Files/Pods-Quackgram/Pods-Quackgram.debug.xcconfig"; sourceTree = "<group>"; };
+		9498607EF5DCD33FF570B8D6 /* Pods-QuackgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuackgramTests.release.xcconfig"; path = "Target Support Files/Pods-QuackgramTests/Pods-QuackgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		B16D6B511A5F40E3590986FB /* Pods_Quackgram_QuackgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quackgram_QuackgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B691B89DC59365BBD6A6D097 /* Pods-Quackgram-QuackgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quackgram-QuackgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quackgram-QuackgramUITests/Pods-Quackgram-QuackgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D855055414DA7452295DFB69 /* Pods_Quackgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quackgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9EEA32FB46A99DB3E529AB /* Pods-Quackgram-QuackgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quackgram-QuackgramUITests.release.xcconfig"; path = "Target Support Files/Pods-Quackgram-QuackgramUITests/Pods-Quackgram-QuackgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D926472331A4E6D8862D78 /* Pods-Quackgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quackgram.release.xcconfig"; path = "Target Support Files/Pods-Quackgram/Pods-Quackgram.release.xcconfig"; sourceTree = "<group>"; };
+		EC9EB728103637708E3A75B1 /* Pods-QuackgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuackgramTests.debug.xcconfig"; path = "Target Support Files/Pods-QuackgramTests/Pods-QuackgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F058A256C672F4446BF34E0E /* Pods_Quackgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207DB00D66DD04F3A2B7F2B3 /* Pods_QuackgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED85ECA72A09A46DF6AEDFB /* Pods_Quackgram_QuackgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052615DFE9839EBB6DCEAD52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D855055414DA7452295DFB69 /* Pods_Quackgram.framework */,
+				B16D6B511A5F40E3590986FB /* Pods_Quackgram_QuackgramUITests.framework */,
+				0855FF21A6F7E84BDBC7C13A /* Pods_QuackgramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0778E2C4238250E100A8E1E0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				0778E2E6238250E400A8E1E0 /* QuackgramTests */,
 				0778E2F1238250E400A8E1E0 /* QuackgramUITests */,
 				0778E2CE238250E100A8E1E0 /* Products */,
+				75B3B7180D17FD693F6DB2CE /* Pods */,
+				052615DFE9839EBB6DCEAD52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,8 +141,13 @@
 				0778E2D4238250E100A8E1E0 /* ContentView.swift */,
 				0778E2D6238250E400A8E1E0 /* Assets.xcassets */,
 				0778E2DB238250E400A8E1E0 /* LaunchScreen.storyboard */,
+				0778E3042382530900A8E1E0 /* Main.storyboard */,
 				0778E2DE238250E400A8E1E0 /* Info.plist */,
 				0778E2D8238250E400A8E1E0 /* Preview Content */,
+				0778E3002382529D00A8E1E0 /* LoginViewController.swift */,
+				0778E302238252A600A8E1E0 /* FeedViewController.swift */,
+				0778E3062382620900A8E1E0 /* CameraViewController.swift */,
+				0778E30A2382781200A8E1E0 /* PostCell.swift */,
 			);
 			path = Quackgram;
 			sourceTree = "<group>";
@@ -136,6 +178,19 @@
 			path = QuackgramUITests;
 			sourceTree = "<group>";
 		};
+		75B3B7180D17FD693F6DB2CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B6C674252C42B9820F86C2 /* Pods-Quackgram.debug.xcconfig */,
+				E8D926472331A4E6D8862D78 /* Pods-Quackgram.release.xcconfig */,
+				B691B89DC59365BBD6A6D097 /* Pods-Quackgram-QuackgramUITests.debug.xcconfig */,
+				DB9EEA32FB46A99DB3E529AB /* Pods-Quackgram-QuackgramUITests.release.xcconfig */,
+				EC9EB728103637708E3A75B1 /* Pods-QuackgramTests.debug.xcconfig */,
+				9498607EF5DCD33FF570B8D6 /* Pods-QuackgramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0778E2F7238250E400A8E1E0 /* Build configuration list for PBXNativeTarget "Quackgram" */;
 			buildPhases = (
+				8E331B3C891E00BADE5AF371 /* [CP] Check Pods Manifest.lock */,
 				0778E2C9238250E100A8E1E0 /* Sources */,
 				0778E2CA238250E100A8E1E0 /* Frameworks */,
 				0778E2CB238250E100A8E1E0 /* Resources */,
+				9466FB4EFA2D7821169B1086 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0778E2FA238250E400A8E1E0 /* Build configuration list for PBXNativeTarget "QuackgramTests" */;
 			buildPhases = (
+				394063ACDEE988DC027E8AF6 /* [CP] Check Pods Manifest.lock */,
 				0778E2DF238250E400A8E1E0 /* Sources */,
 				0778E2E0238250E400A8E1E0 /* Frameworks */,
 				0778E2E1238250E400A8E1E0 /* Resources */,
@@ -178,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0778E2FD238250E400A8E1E0 /* Build configuration list for PBXNativeTarget "QuackgramUITests" */;
 			buildPhases = (
+				F4B7C983C2FF3DC86914156F /* [CP] Check Pods Manifest.lock */,
 				0778E2EA238250E400A8E1E0 /* Sources */,
 				0778E2EB238250E400A8E1E0 /* Frameworks */,
 				0778E2EC238250E400A8E1E0 /* Resources */,
+				C1E0B86940E8FA48A75A32AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +303,7 @@
 				0778E2DD238250E400A8E1E0 /* LaunchScreen.storyboard in Resources */,
 				0778E2DA238250E400A8E1E0 /* Preview Assets.xcassets in Resources */,
 				0778E2D7238250E400A8E1E0 /* Assets.xcassets in Resources */,
+				0778E3052382530900A8E1E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +323,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		394063ACDEE988DC027E8AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuackgramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E331B3C891E00BADE5AF371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quackgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9466FB4EFA2D7821169B1086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quackgram/Pods-Quackgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quackgram/Pods-Quackgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quackgram/Pods-Quackgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E0B86940E8FA48A75A32AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quackgram-QuackgramUITests/Pods-Quackgram-QuackgramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quackgram-QuackgramUITests/Pods-Quackgram-QuackgramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quackgram-QuackgramUITests/Pods-Quackgram-QuackgramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B7C983C2FF3DC86914156F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quackgram-QuackgramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0778E2C9238250E100A8E1E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0778E30B2382781200A8E1E0 /* PostCell.swift in Sources */,
+				0778E3012382529D00A8E1E0 /* LoginViewController.swift in Sources */,
 				0778E2D1238250E100A8E1E0 /* AppDelegate.swift in Sources */,
+				0778E303238252A600A8E1E0 /* FeedViewController.swift in Sources */,
 				0778E2D3238250E100A8E1E0 /* SceneDelegate.swift in Sources */,
 				0778E2D5238250E100A8E1E0 /* ContentView.swift in Sources */,
+				0778E3072382620900A8E1E0 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +600,7 @@
 		};
 		0778E2F8238250E400A8E1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B6C674252C42B9820F86C2 /* Pods-Quackgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +620,7 @@
 		};
 		0778E2F9238250E400A8E1E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D926472331A4E6D8862D78 /* Pods-Quackgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +640,7 @@
 		};
 		0778E2FB238250E400A8E1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9EB728103637708E3A75B1 /* Pods-QuackgramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +662,7 @@
 		};
 		0778E2FC238250E400A8E1E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9498607EF5DCD33FF570B8D6 /* Pods-QuackgramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +684,7 @@
 		};
 		0778E2FE238250E400A8E1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B691B89DC59365BBD6A6D097 /* Pods-Quackgram-QuackgramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +704,7 @@
 		};
 		0778E2FF238250E400A8E1E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9EEA32FB46A99DB3E529AB /* Pods-Quackgram-QuackgramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

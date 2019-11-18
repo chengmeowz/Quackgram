@@ -1,0 +1,6 @@
+framework module Pods_QuackgramTests {
+  umbrella header "Pods-QuackgramTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
