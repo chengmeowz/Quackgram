@@ -7,7 +7,8 @@ target 'Quackgram' do
 
   # Pods for Quackgram
   pod "Parse"
-  pod "AlamofireImage"	
+  pod "AlamofireImage"
+  pod "MessageInputBar"	
 
   target 'QuackgramTests' do
     inherit! :search_paths
