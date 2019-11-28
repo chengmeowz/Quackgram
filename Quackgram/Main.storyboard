@@ -177,7 +177,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="I love it!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnt-v2-ITi">
-                                                    <rect key="frame" x="125" y="8" width="242" height="18"/>
+                                                    <rect key="frame" x="125" y="8" width="55.5" height="18"/>
                                                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -195,7 +195,7 @@
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jnt-v2-ITi" secondAttribute="bottom" constant="8" id="SCu-ys-ZQe"/>
                                                 <constraint firstItem="age-42-oE3" firstAttribute="top" secondItem="cRt-Ve-90F" secondAttribute="topMargin" constant="-4" id="a18-4R-ocy"/>
                                                 <constraint firstItem="jnt-v2-ITi" firstAttribute="leading" secondItem="age-42-oE3" secondAttribute="trailing" constant="8" id="b0F-8E-Ltf"/>
-                                                <constraint firstAttribute="trailing" secondItem="jnt-v2-ITi" secondAttribute="trailing" constant="8" id="wpt-EN-b8u"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jnt-v2-ITi" secondAttribute="trailing" constant="8" id="wpt-EN-b8u"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
