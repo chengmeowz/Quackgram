@@ -73,6 +73,7 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="5Z7-ZC-047" firstAttribute="bottom" secondItem="TLf-rg-JgF" secondAttribute="bottom" constant="182" id="C2U-wc-9Y1"/>
                             <constraint firstItem="LLc-bK-biv" firstAttribute="top" secondItem="5Z7-ZC-047" secondAttribute="top" constant="61" id="CHo-DF-pBI"/>
@@ -99,6 +100,9 @@
                             <constraint firstItem="UPW-Ib-JNP" firstAttribute="top" secondItem="uge-JB-tYT" secondAttribute="bottom" constant="8" id="wqt-BX-M7u"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Z7-ZC-047"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="VdB-cy-0Bl" appends="YES" id="9mj-PV-WYX"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="BXo-wL-O9I"/>
                     <connections>
@@ -108,6 +112,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJQ-HZ-Os1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="VdB-cy-0Bl">
+                    <connections>
+                        <action selector="tapping:" destination="5om-7h-5bb" id="iea-Nd-Nrg"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-68" y="220"/>
         </scene>
@@ -169,7 +178,7 @@
                                             <outlet property="usernameLabel" destination="JvF-9U-3Bg" id="9AZ-1j-AVD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P23-8y-I9o" customClass="CommentCell" customModule="Quackgram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="P23-8y-I9o" customClass="CommentCell" customModule="Quackgram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="438" width="375" height="34.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P23-8y-I9o" id="cRt-Ve-90F">
