@@ -18,11 +18,6 @@ The following **bonus** features are implemented:
 - [ ] User can add a profile picture. (2pts)
 - [ ] Profile pictures are shown for posts and comments. (2pts)
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://g.recordit.co/zUPGjf9408.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 # Quackgram - Part I
@@ -46,8 +41,3 @@ The following **bonus** features are implemented:
 - [ ] User can pull to refresh. (1pt)
 - [ ] User can load past tweets infinitely. (2pts)
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://g.recordit.co/yOVftN0Rx8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
